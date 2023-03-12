@@ -1,4 +1,4 @@
-class twoSumsOptimised {
+class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> hashmap = new HashMap(); //hashmap is faster than hashset
         for (int i = 0; i < nums.length; i++) {
